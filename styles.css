@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(53, 53, 53);
+}
+.fetch{
+    height: 530px;
+}
+.download {
+    background-color: rgb(150, 150, 150);
+    padding:  10px 0;
+    text-align: center;
+    height: 60px;
+}
+.download_btn {
+    display: inline-flex;
+    background-color: rgb(47, 47, 47);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #000000;
+    transition: background-color 0.5s ease 0s;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+}
+.download_btn:hover{
+    background-color: rgb(55, 55, 55);
+}
+.download_btn:active{
+    top: 2px;
+}
+.btn_text {
+    padding: 8px 12px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.download_success {
+    color: rgb(47, 47, 47);
+    font-size: 24px;
+    font-weight: 530;
+}
+.people {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.information {
+    color: rgb(150, 150, 150);
+    padding:  5px 0;
+    font-size: 20px;
+    font-weight: 510;
+    box-shadow: 0 0 5px rgb(150, 150, 150);
+    text-align: center;
+}
+.inf {
+    margin: 10px 0; 
+}
+.span{
+    color: rgb(190, 180, 2);
+}
